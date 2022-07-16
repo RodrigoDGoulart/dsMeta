@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #181818;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(#102347, #181818);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header img {
+    width: 235px;
+    margin-top: 30px;
+}
+
+header * {
+    margin: 3px;
+}
+
+header h3, article h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header a {
+    text-decoration: none;
+    color: unset;
+    font-weight: 300;
+}
+
+article {
+    background-color: #283142;
+    width: 90%;
+    min-width: 300px;
+    padding: 30px 25px 10px 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+article h5 {
+    color: #676FFF;
+    margin-bottom: 10px;
+}
+
+section input {
+    width: 80%;
+    min-width: 280px;
+    max-width: 300px;
+    height: 46px;
+    background: #1B2531;
+    color: #384459;
+    border: none;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+}
+
+tr{
+    font-weight: 400px;
+    color: #CFCFCF;
+    border-bottom: 1px solid #5F6E82;
+}
+
+tr:last-child {
+    border: none;
+}
+
+tr:nth-child(even){
+    background-color: #242C3B;
+}
+
+tr:not(:first-child):hover {
+    background: rgba(255, 255, 255, 0.178);
+}
+
+tr td div {
+    margin: 0px auto;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #FF6B72;
+    background: #ff6b7277;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+tr td div img {
+    width: 19px;
+    margin: 13px auto;
+}
+
+.show-576, .show-992 {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .show-576 {
+        display: table-cell;
+    }
+
+    th, td {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    .show-992 {
+        display: table-cell;
+    }
+}
