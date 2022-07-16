@@ -1,0 +1,16 @@
+div.notify-btn {
+    margin: 0px auto;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #FF6B72;
+    background: #ff6b7277;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+div.notify-btn img {
+    width: 19px;
+    margin: 13px;
+}
