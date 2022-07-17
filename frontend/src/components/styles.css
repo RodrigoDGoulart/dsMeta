@@ -66,7 +66,7 @@ section .dsmeta-form-control {
     max-width: 300px;
     height: 46px;
     background: #1B2531;
-    color: #384459;
+    color: rgb(204, 204, 204);
     border: none;
     border-radius: 5px;
     text-indent: 10px;
@@ -83,7 +83,7 @@ table {
 
 th, td {
     font-size: 14px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
