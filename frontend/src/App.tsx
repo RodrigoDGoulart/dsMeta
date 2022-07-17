@@ -1,10 +1,13 @@
-import NotificationButton from "./components/NotificationButton"
+import Headr from "./components/header"
+import DsCard from "./components/DsCard"
 
 function App() {
   return (
     <>
-    <h1>Olá mundo</h1>
-    <NotificationButton />
+    <Headr />
+    <main>
+      <DsCard />
+    </main>
     </>
   )
 }
